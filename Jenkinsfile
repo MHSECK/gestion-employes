@@ -1,6 +1,8 @@
 pipeline {
 
-    agent any
+     agent {
+        label 'agent-windows'  // ou 'linux' selon votre agent Jenkins
+    }
 
     environment {
         DOCKERHUB_USER = "ditdevops1"
