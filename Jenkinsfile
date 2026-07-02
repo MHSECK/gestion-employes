@@ -1,6 +1,6 @@
 pipeline {
 
-     agent {
+    agent {
         label 'agent-windows'  // ou 'linux' selon votre agent Jenkins
     }
 
